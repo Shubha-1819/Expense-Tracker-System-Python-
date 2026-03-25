@@ -124,7 +124,9 @@ def add_expense():
         writer = csv.writer(file)
         writer.writerow([name, amount])
 
+
     print("Expense saved!\n")
+
 
 def view_expense():
     try:
@@ -247,8 +249,7 @@ The program was tested with:
 * Multiple entries
 
 
-
-# Conclusion
+print("Welcome")
 
 The Expense Tracker System is a practical and beginner-friendly project that demonstrates how Python can be used to solve real-life problems. It helps users manage their daily expenses efficiently while also strengthening programming concepts such as file handling, loops, and conditionals.
 
